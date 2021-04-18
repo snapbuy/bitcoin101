@@ -37,3 +37,5 @@ p3.set_title("Reward")
 
 p4.plot(Year[0:10], Bitcoin[0:10], color='blue', linewidth=1.0)
 p4.set_title("Bitcoin Amount")
+
+plt.show()
