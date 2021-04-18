@@ -38,7 +38,7 @@ df = pd.DataFrame(mining, columns=['Date', 'Address', 'Reward'])
 grp = df.groupby('Address').Address.count()
 print() 
 print(grp)
-
+print('Address')
 # Histogram
 plt.figure(figsize=(6,3))
 plt.title("Miner's Address")
